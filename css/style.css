@@ -100,6 +100,10 @@ a:hover{
     text-align: left;
     width: 450px;
 }
+.heading-text{
+    color: #006838;
+    font-size: 30px;
+}
 .dancing-script-text{
     font-family: 'Dancing Script', cursive;
     color: #d4b242;
