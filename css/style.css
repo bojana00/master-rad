@@ -177,3 +177,19 @@ a:hover{
 .four-block-section-single-column img{
     width: 200px;
 }
+.banner-biomarket{
+    width: 100%;
+    height: 700px;
+    background: url(../img/biomarket-banner.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-title .social-media i{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+.white-text{
+    color: #fff;
+}
