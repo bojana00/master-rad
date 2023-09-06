@@ -81,7 +81,6 @@ a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #fcfcfc;
 }
 .wrapp-width{
     width: 90%;
@@ -160,16 +159,15 @@ a:hover{
     background-color: #006838;
     width: 75%;
     padding: 50px;
-    margin: -100px auto;
-}
-.green-block img{
-    padding-bottom: 50px;
+    margin: 0px auto;
+    margin-top: -100px;
+    margin-bottom: 100px;
 }
 .four-block-section{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .four-block-section-single-column{
     width: 200px;
@@ -177,13 +175,8 @@ a:hover{
 .four-block-section-single-column img{
     width: 200px;
 }
-.banner-biomarket{
-    width: 100%;
-    height: 700px;
+#banner-biomarket{
     background: url(../img/biomarket-banner.jpeg);
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .banner-title .social-media i{
     font-size: 30px;
@@ -192,4 +185,29 @@ a:hover{
 }
 .white-text{
     color: #fff;
+}
+.white-border{
+    border: 1px solid #fff;
+}
+#banner-o-nama {
+    background: url(../img/banner-o-nama.jpg);
+}
+form input{
+    width: 350px;
+    margin-top: 15px;
+    padding: 20px;
+    border-color: #f5d895;
+}
+form textarea{
+    width: 350px;
+    padding: 20px;
+    border-color: #f5d895;
+    margin-top: 15px;
+}
+.button-submit{
+    width: 150px;
+}
+.button-submit:hover{
+    background-color: #f5d895;
+    color: #3b3b3b;
 }
